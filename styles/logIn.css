@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.first{
+  display: block;
+  border: 2px solid #e7e7e7;
+  border-radius: 5px;
+  padding-left: 1vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  width: 20vw;
+  margin-bottom: 1vh;
+}
+
+input::placeholder{
+  color: #bcb3b3;
+}
+
+form{
+  margin: auto;
+  width: 30%;
+  margin-top: 7%;
+}
+
+h1{
+  color: #383838;
+  font-size: 6vh;
+  margin-bottom: 1vh;
+}
+
+.logIn-button{
+  background-color: #fc4500;
+  color: white;
+  font-size: 2.5vh;
+  font-weight: bold;
+  border: none;
+  margin-top: 3vh;
+  width: 21vw;
+  border-radius: 5px;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+label{
+  margin-right: 5vw;
+  color: #646464;
+  font-size: 2vh;
+  font-family: arial;
+  line-height: 5vh;
+}
+
+a{
+  text-decoration: none;
+  font-size: 2.1vh;
+  color: #454545;
+  font-family: arial;
+}
+
+.foot{
+  display: flex;
+  margin: auto;
+  width: 25%;
+  margin-top: 37vh;
+}
+
+p{
+  color: #6e6e6e;
+  font-family: Arial;
+  font-size: 2.2vh;
+}
+
+.switchpage{
+  margin-left: 5vw;
+  text-decoration: none;
+  color: #fd5010;
+  font-family: arial;
+  font-size: 2.2vh;
+}
