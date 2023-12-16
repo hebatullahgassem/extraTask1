@@ -12,7 +12,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event){
   var getEmail = localStorage.getItem('userEmail');
   var getPassword = localStorage.getItem('userPassword');
 
-  //load the json file
+  //load json file data
   fetch('../json/login.json').then(response => response.json())
   .then(data => {
     //check if user exist and password correct
