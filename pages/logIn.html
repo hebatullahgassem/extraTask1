@@ -4,18 +4,19 @@
   <link rel="stylesheet" href="../styles/logIn.css">
 </head>
 <body>
-  <form action="">
+  <form id="loginForm">
     <h1>Log In</h1>
     <div>
-      <input class="first" type="email" placeholder="email">
-      <input class="first" type="password" placeholder="password">
+      <input class="first" type="email" placeholder="email" name="email" id="email">
+      <input class="first" type="password" placeholder="password" name="password" id="password">
       <input type="checkbox" id="check"> <label for="check">Remember me</label>
       <a href="">Forgot password?</a>
-      <input type="submit" value="Log In" class="logIn-button">
+      <button type="submit" class="logIn-button">Log in</button>
     </div>
   </form>
   <div class="foot">
     <p>have an account?</p><a class="switchpage" href="./signUp.html">Sign Up</a>
   </div>
+  <script src="../js/login.js"></script>
 </body>
 </html>
