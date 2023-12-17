@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-input{
+input, #signUp{
   display: block;
   border: 2px solid #e7e7e7;
   border-radius: 5px;
@@ -14,7 +14,11 @@ input{
   margin-bottom: 1vh;
 }
 
-input::placeholder{
+#signUp{
+  width: 21.5vw;
+}
+
+input::placeholder, #signUp::placeholder{
   color: #bcb3b3;
 }
 
