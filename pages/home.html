@@ -15,79 +15,104 @@
       <a class="tab" href="../pages/logIn.html">Log in</a>
     </div>
   </nav>
-  <section class="posts">
-    <div class="post">
-      <img class="postImg" src="../images/postImg.png" alt="post-img">
-      <div class="description">
-        <p class="name">Bridgetown, Barbados</p>
-        <p class="desc">Yoga & Meditation Retreat</p>
+  <section class="form">
+    <form>
+      <div>
+        <input type="file" name="name" accept="image/png" id="img">
+        <input type="text" name="name" placeholder="Enter post title" id="title">
+        <input type="text" name="name" placeholder="Enter post description" id="desc">
       </div>
-      <div class="post-foot">
-        <p class="cost">$170</p> 
-        <p class="time">15 day tour</p>
-        <p class="res">(1143)</p>
+      <div class="buttons">
+        <button id="submit" onclick="AddData()">Add Post</button>
+        <button id="update" onclick="UpdateData()">Update Post</button>
       </div>
-    </div>
-    <div class="post">
-      <img class="postImg" src="../images/postImg.png" alt="post-img">
-      <div class="description">
-        <p class="name">Bridgetown, Barbados</p>
-        <p class="desc">Yoga & Meditation Retreat</p>
-      </div>
-      <div class="post-foot">
-        <p class="cost">$170</p> 
-        <p class="time">15 day tour</p>
-        <p class="res">(1143)</p>
-      </div>
-    </div>
-    <div class="post">
-      <img class="postImg" src="../images/postImg.png" alt="post-img">
-      <div class="description">
-        <p class="name">Bridgetown, Barbados</p>
-        <p class="desc">Yoga & Meditation Retreat</p>
-      </div>
-      <div class="post-foot">
-        <p class="cost">$170</p> 
-        <p class="time">15 day tour</p>
-        <p class="res">(1143)</p>
-      </div>
-    </div>
-    <div class="post">
-      <img class="postImg" src="../images/postImg.png" alt="post-img">
-      <div class="description">
-        <p class="name">Bridgetown, Barbados</p>
-        <p class="desc">Yoga & Meditation Retreat</p>
-      </div>
-      <div class="post-foot">
-        <p class="cost">$170</p> 
-        <p class="time">15 day tour</p>
-        <p class="res">(1143)</p>
-      </div>
-    </div>
-    <div class="post">
-      <img class="postImg" src="../images/postImg.png" alt="post-img">
-      <div class="description">
-        <p class="name">Bridgetown, Barbados</p>
-        <p class="desc">Yoga & Meditation Retreat</p>
-      </div>
-      <div class="post-foot">
-        <p class="cost">$170</p> 
-        <p class="time">15 day tour</p>
-        <p class="res">(1143)</p>
-      </div>
-    </div>
-    <div class="post">
-      <img class="postImg" src="../images/postImg.png" alt="post-img">
-      <div class="description">
-        <p class="name">Bridgetown, Barbados</p>
-        <p class="desc">Yoga & Meditation Retreat</p>
-      </div>
-      <div class="post-foot">
-        <p class="cost">$170</p> 
-        <p class="time">15 day tour</p>
-        <p class="res">(1143)</p>
-      </div>
-    </div>
+    </form>
   </section>
+  <section class="form-data">
+    <table>
+      <tbody>
+      <th>
+        <tr><td><img class="imgPost"></img></td></tr>
+        <tr><td><h1 class="titlePost"></h1></td></tr>
+        <tr><td><h1 class="descPost"></h1></td></tr>
+      </th>
+      </tbody>
+    </table>
+  </section>
+  <!-- <section class="posts">
+    <div class="post">
+      <img class="postImg" src="../images/postImg.png" alt="post-img">
+      <div class="description">
+        <p class="name">Bridgetown, Barbados</p>
+        <p class="desc">Yoga & Meditation Retreat</p>
+      </div>
+      <div class="post-foot">
+        <p class="cost">$170</p> 
+        <p class="time">15 day tour</p>
+        <p class="res">(1143)</p>
+      </div>
+    </div>
+    <div class="post">
+      <img class="postImg" src="../images/postImg.png" alt="post-img">
+      <div class="description">
+        <p class="name">Bridgetown, Barbados</p>
+        <p class="desc">Yoga & Meditation Retreat</p>
+      </div>
+      <div class="post-foot">
+        <p class="cost">$170</p> 
+        <p class="time">15 day tour</p>
+        <p class="res">(1143)</p>
+      </div>
+    </div>
+    <div class="post">
+      <img class="postImg" src="../images/postImg.png" alt="post-img">
+      <div class="description">
+        <p class="name">Bridgetown, Barbados</p>
+        <p class="desc">Yoga & Meditation Retreat</p>
+      </div>
+      <div class="post-foot">
+        <p class="cost">$170</p> 
+        <p class="time">15 day tour</p>
+        <p class="res">(1143)</p>
+      </div>
+    </div>
+    <div class="post">
+      <img class="postImg" src="../images/postImg.png" alt="post-img">
+      <div class="description">
+        <p class="name">Bridgetown, Barbados</p>
+        <p class="desc">Yoga & Meditation Retreat</p>
+      </div>
+      <div class="post-foot">
+        <p class="cost">$170</p> 
+        <p class="time">15 day tour</p>
+        <p class="res">(1143)</p>
+      </div>
+    </div>
+    <div class="post">
+      <img class="postImg" src="../images/postImg.png" alt="post-img">
+      <div class="description">
+        <p class="name">Bridgetown, Barbados</p>
+        <p class="desc">Yoga & Meditation Retreat</p>
+      </div>
+      <div class="post-foot">
+        <p class="cost">$170</p> 
+        <p class="time">15 day tour</p>
+        <p class="res">(1143)</p>
+      </div>
+    </div>
+    <div class="post">
+      <img class="postImg" src="../images/postImg.png" alt="post-img">
+      <div class="description">
+        <p class="name">Bridgetown, Barbados</p>
+        <p class="desc">Yoga & Meditation Retreat</p>
+      </div>
+      <div class="post-foot">
+        <p class="cost">$170</p> 
+        <p class="time">15 day tour</p>
+        <p class="res">(1143)</p>
+      </div>
+    </div>
+  </section> -->
+  <script src="../js/home.js"></script>
 </body>
 </html>
